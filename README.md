@@ -96,9 +96,12 @@ Example results using smaller dataset:
 
 Example Grid:
 
-| Original Images                          | Grad-CAM Overlays                      |
-| ---------------------------------------- | -------------------------------------- |
-| ![Original](images/original_example.png) | ![Overlay](images/gradcam_example.png) |
+| Original Images                        | 
+| ---------------------------------------|
+| Grad-CAM Overlays                      |
+| -------------------------------------- |
+|<img width="1288" height="357" alt="image" src="https://github.com/user-attachments/assets/1a0585d3-06e5-474f-82f9-946fa36ef2b5" />
+
 
 ---
 
