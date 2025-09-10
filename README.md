@@ -96,11 +96,7 @@ Example results using smaller dataset:
 
 Example Grid:
 
-| Original Images                        | 
-| ---------------------------------------|
-| Grad-CAM Overlays                      |
-| -------------------------------------- |
-|<img width="1288" height="357" alt="image" src="https://github.com/user-attachments/assets/1a0585d3-06e5-474f-82f9-946fa36ef2b5" />
+<img width="1288" height="357" alt="histology_white_bg" src="https://github.com/user-attachments/assets/2083a373-f5fe-48c4-ad24-4828df2303f8" />
 
 
 ---
