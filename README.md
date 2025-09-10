@@ -140,7 +140,11 @@ Histopathology-Image-Classification/
 
 ## **References**
 
-* [PatchCamelyon (PCam) GitHub](https://github.com/basveeling/pcam)
+
+1. Veeling, B. S., Linmans, J., Winkens, J., Cohen, T., & Welling, M. (2018). *Rotation Equivariant CNNs for Digital Pathology*. arXiv:1806.03962. [https://arxiv.org/abs/1806.03962](https://arxiv.org/abs/1806.03962)
+
+2. Ehteshami Bejnordi et al. (2017). *Diagnostic Assessment of Deep Learning Algorithms for Detection of Lymph Node Metastases in Women With Breast Cancer.* JAMA, 318(22), 2199–2210. doi:jama.2017.14585
+
 
 
 ---
