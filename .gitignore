@@ -27,6 +27,11 @@ Thumbs.db
 
 # PyCharm / VSCode settings
 .idea/
+
+
+histopath_model.h5
+*.h5
+
 .vscode/
 
 # Output images or plots (optional)
