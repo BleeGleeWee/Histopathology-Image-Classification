@@ -5,15 +5,12 @@ import cv2
 import time
 from PIL import Image
 
-# Assuming build_model is in your model.py
+# importing build_model from model.py
 from model import build_model
 
 
-# -------------------------------
-# 🎨 UI Enhancement: Custom CSS & Moving Fractal Background
-# -------------------------------
+# UI
 def apply_custom_styles():
-    # Direct link to your fractal image
     IMAGE_URL = "https://tse3.mm.bing.net/th/id/OIP.wOz-U9xMDdI1GPuEHA3MBgHaEo?cb=ucfimg2&pid=ImgDet&ucfimg=1&w=474&h=296&rs=1&o=7&rm=3"
     st.markdown(f"""
     <style>
@@ -47,7 +44,7 @@ def apply_custom_styles():
 
     /* Legibility */
     h1, h2, h3, p, span, label, div[data-testid="stMarkdownContainer"] > p {{
-         color: #ffffff !important;
+         color:
          text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
     }}
 
@@ -77,9 +74,7 @@ def load_model():
 model = load_model()
 
 
-# -------------------------------
-# Grad-CAM Functionality
-# -------------------------------
+# Grad-CAM func
 def make_gradcam_heatmap(img_array, model, last_conv_layer_name="conv5_block3_out"):
     grad_model = tf.keras.models.Model(
         [model.inputs],
@@ -106,9 +101,8 @@ def overlay_gradcam(image, heatmap, alpha=0.5):
     return superimposed_img
 
 
-# -------------------------------
-# Sidebar
-# -------------------------------
+
+# Side-bar
 with st.sidebar:
     st.header("⚙️ Analysis Settings")
     try:
@@ -178,9 +172,8 @@ if uploaded_files:
     with st.expander("📊 View Batch Statistics"):
         st.dataframe(results_list)
 
-# -------------------------------
-# Educational Footer using Tabs
-# -------------------------------
+
+# Edu footer using tabs
 st.divider()
 st.subheader("📘 Understanding the Technology")
 
