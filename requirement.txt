@@ -1,8 +1,0 @@
-tensorflow==2.11.0
-keras
-numpy
-matplotlib
-h5py
-opencv-python
-seaborn
-scikit-learn
