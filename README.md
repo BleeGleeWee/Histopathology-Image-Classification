@@ -1,6 +1,6 @@
 # Histopathology Image Classification | CNN & Grad-CAM
 
-Deployed link - ![✨](https://histopathology-image-classification-ml.streamlit.app)
+Deployed link - ![🔗](https://histopathology-image-classification-ml.streamlit.app)
 
 *"That which is measured, improves." – Karl Pearson*
 
