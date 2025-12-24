@@ -8,7 +8,6 @@ from PIL import Image
 # importing build_model from model.py
 from model import build_model
 
-
 # UI
 def apply_custom_styles():
     IMAGE_URL = "https://tse3.mm.bing.net/th/id/OIP.wOz-U9xMDdI1GPuEHA3MBgHaEo?cb=ucfimg2&pid=ImgDet&ucfimg=1&w=474&h=296&rs=1&o=7&rm=3"
